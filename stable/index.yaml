@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  hello:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-18T19:05:52.0944736+09:00"
+    description: A Helm chart for Kubernetes
+    digest: ec5c988f8a9eede957cf6c8b9df8150721f7d65fccd4199dce0346da8c728748
+    name: hello
+    type: application
+    urls:
+    - hello-0.1.0.tgz
+    version: 0.1.0
+  qhub-ocp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-18T19:05:52.095472+09:00"
+    description: qhub jboss eap
+    digest: bfde8ef8e14d19845564ce0f4d72c5d4c211f90c96495e63a5eaefcfe3a6ca58
+    home: https://gitlab.com/helm-charts
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - qhub
+    - JBossEAP
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: sankim@redhat.com
+      name: Sanggon.kim
+    - email: hyou@redhat.com
+      name: Hana.you
+    name: qhub-ocp
+    sources:
+    - https://gitlab.com/helm-charts/tree/master/stable
+    type: application
+    urls:
+    - qhub-ocp-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-18T19:05:52.0904927+09:00"
